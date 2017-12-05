@@ -45,6 +45,7 @@
       * [撤单接口](SDK/Android SDK/api-list/revokeOrder.md)
       * [设置日志输出](SDK/Android SDK/api-list/setDebug.md)
     * [集成步骤](SDK/Android SDK/integration.md)
+    * [示例代码](SDK/Android SDK/codeDemo.md)
     * [附录](SDK/Android SDK/appendix.md)
   * [iOS SDK](SDK/iOS SDK/index.md)
   * [Win SDK](SDK/Win SDK/index.md)
