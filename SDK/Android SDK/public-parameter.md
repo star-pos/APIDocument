@@ -21,10 +21,7 @@
 | tradeNo | 1 | Max\(64\) | String | 商户单号 | 在商户端不重复 |
 | sysTime | 1 | Max\(14\) | String | 系统交易时间号 | 如：20170527153245 |
 | message | 1 | Max\(100\) | String | 返回信息 |  |
-|  | mercId | 1 | Max\(15\) | String | 商户号 |
-
-  
-
+| mercId | 1 | Max\(15\) | String | 商户号 | 商户号 |
 
 
 
