@@ -18,15 +18,13 @@
 | 输出参数 | void |
 | 附加说明 | NldQueryResult:返回对象参数 |
 
-
-
-## 请求参数NldQueryPay
+### 请求参数NldQueryPay
 
 | 参数名 | 约束 | 最大长度 | 含义 | 备注 |
 | :--- | :--- | :--- | :--- | :--- |
 | qryNo | 1 | Max\(64\) | 查询流水 | 可根据logNo、orderNo、tradeNo的值做查询\(最大位数是64位\) |
 
-## 返回参数NldQueryResult
+### 返回参数NldQueryResult
 
 | 参数名 | 约束 | 最大长度 | 含义 | 备注 |
 | :--- | :--- | :--- | :--- | :--- |
