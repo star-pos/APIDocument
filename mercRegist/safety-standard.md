@@ -6,15 +6,14 @@
 
 签名机制如下：
 
-1.签名字段不参与组成签名原文串。
+1. 签名字段不参与组成签名原文串
+2. 只有约束为“1”且非循环节点参与签名
 
-2.只有约束为“1”且非循环节点参与签名
+3. 待签名原文是请求参数按参数名小写字母进行升序排列，参数值做拼接组成的字符串
 
-3.待签名原文是请求参数按参数名小写字母进行升序排列，参数值做拼接组成的字符串
+4. 如果提交的参数为{apam:value1, Cpam:value2, bpam:Value3}，密钥key值为AFDFAASDASDAS，则待签名原文为：value1value3value2AFDFAASDASDAS，MD5后的signValue为:2145eb33684c7e4bcfe04307c435c3b9
 
-4.如果提交的参数为{apam:value1, Cpam:value2, bpam:Value3}，密钥key值为AFDFAASDASDAS，则待签名原文为：value1value3value2AFDFAASDASDAS，MD5后的signValue为:2145eb33684c7e4bcfe04307c435c3b9
-
-5.新增版本号，默认值为V1.0.0为修改前的接口，V1.0.1，为现在接口.
+5. 新增版本号，默认值为V1.0.0为修改前的接口，V1.0.1，为现在接口
 
 ## 请求范例
 
