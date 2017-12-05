@@ -33,6 +33,8 @@
   * [附录](mercRegist/appendix.md)
 * [SDK](SDK/index.md)
   * [Android SDK](SDK/Android SDK/index.md)
+    * [接口说明](SDK/Android SDK/interface-regular.md)
+    * [接口列表](SDK/Android SDK/api-list/index.md)
   * [iOS SDK](SDK/iOS SDK/index.md)
   * [Win SDK](SDK/Win SDK/index.md)
 * [银行卡交易查询](scanAPI/api-list/search-order-pos.md)
