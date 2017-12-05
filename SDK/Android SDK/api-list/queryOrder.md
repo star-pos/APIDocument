@@ -1,7 +1,5 @@
 # 订单查询
 
-## 查询接口
-
 | 方法 | void requestQueryPay\(NldQueryPay nldQueryPay, OnResultListener&lt;NldQueryResult&gt;onResultListener\) |
 | :--- | :--- |
 | 说明 | 订单查询 |
@@ -9,22 +7,13 @@
 | 输出参数 | void |
 | 附加说明 | NldQueryResult:返回对象参数 |
 
-## 轮询接口
-
-| 方法 | void requestRollQueryPay\(NldQueryPay nldQueryPay, OnResultListeneronResultListener\) |
-| :--- | :--- |
-| 说明 | 订单轮询 |
-| 输入参数 | 1. NldQueryPay输入参数\(参考订单查询\) 2. OnResultListeneronResultListener接口回调 |
-| 输出参数 | void |
-| 附加说明 | NldQueryResult:返回对象参数 |
-
-### 请求参数NldQueryPay
+## 请求参数NldQueryPay
 
 | 参数名 | 约束 | 最大长度 | 含义 | 备注 |
 | :--- | :--- | :--- | :--- | :--- |
 | qryNo | 1 | Max\(64\) | 查询流水 | 可根据logNo、orderNo、tradeNo的值做查询\(最大位数是64位\) |
 
-### 返回参数NldQueryResult
+## 返回参数NldQueryResult
 
 | 参数名 | 约束 | 最大长度 | 含义 | 备注 |
 | :--- | :--- | :--- | :--- | :--- |
