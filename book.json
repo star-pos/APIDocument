@@ -1,0 +1,61 @@
+{
+
+    "title": "开发者文档",
+    "description": "新大陆星POS开发者文档",
+    "author": "He Qian",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "plugins" : [ 
+        "-share",
+        "-lunr", 
+        "-search", 
+        "search-pro",
+        "book-summary-scroll-position-saver",
+        "expandable-chapters-small",
+        "baidu",
+        "simple-page-toc",
+        "anchors",
+        "emphasize",
+        "splitter",
+        "alerts",
+        "prism",
+        "-highlight",
+        "sitemap",
+        "anchor-navigation-ex",
+        "favicon"
+    ],
+    "pluginsConfig": {
+    
+        "expandable-chapters-small":{},
+        "anchor-navigation-ex":{
+            "showLevel":false,
+            "associatedWithSummary": false
+        },
+        "baidu": {
+            "token": "a9787f0ab45d5e237bab522431d0a7ec"
+        },
+         "atoc": {
+            "addClass": true,
+            "className": "atoc"
+        },
+        "sitemap": {
+            "hostname": "http://starpos.com.cn/"
+        },
+        "simple-page-toc": {
+            "maxDepth": 3,
+            "skipFirstH1": true
+        },
+        "favicon": {
+            "shortcut": "assets/favicon.ico",
+            "bookmark": "assets/favicon.ico",
+            "appleTouch": "assets/import.png",
+            "appleTouchMore": {
+                "120x120": "assets/import.png",
+                "180x180": "assets/import.png"
+            }
+        }
+    },
+    "styles": {
+          "website": "website.css"
+    }
+}
