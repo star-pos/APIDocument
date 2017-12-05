@@ -14,7 +14,7 @@
 | amount | 1 | Max\(13\) | 实付金额 | 1元表示100\(分为单位\) |
 | total\_amount | 1 | Max\(13\) | 订单总金额 | 1元表示100\(分为单位\) |
 | authCode | 1 | Max\(256\) | 二维码信息 | 扫码支付授权码，设备读取用户微信或支付宝中的条码或者二维码信息\(最大位数256\) |
-| payChannel | 1 | / | 支付渠道 | [附录](/SDK/Android SDK/appendix.md) |
+| payChannel | 1 | / | 支付渠道 | 详情见[附录](/SDK/Android SDK/appendix.md) |
 | subject | 0 | Max\(512\) | 订单标题 | String内容值不能是null |
 | selOrderNo | 0 | Max\(50\) | 订单号 | 数字or字母，组合 |
 | goods\_tag | 0 | Max\(512\) | 订单优惠说明 | String内容值不能是null |
