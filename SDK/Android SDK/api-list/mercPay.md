@@ -1,6 +1,6 @@
 # 商户主扫
 
-|  方法 | void requestPhonePay\(NldPhonePay nldPhonePay,OnResultListeneronResultListener\) |
+| 方法 | void requestPhonePay\(NldPhonePay nldPhonePay,OnResultListeneronResultListener\) |
 | :--- | :--- |
 | 说明 | 商户主扫 |
 | 输入参数 | 1.NldPhonePay 2.OnResultListener&lt;PhoneResult&gt;onResultListener接口回调  |
@@ -25,7 +25,7 @@
 | 参数名 | 约束 | 最大长度 | 含义 | 备注 |
 | :--- | :--- | :--- | :--- | :--- |
 | logNo | 1 | Max\(20\) | 系统流水号 | 平台系统流水号 |
-| result | 1 | Max\(1\) | 交易结查 | S-交易成功 F-交易失败 Z-交易未知  |
+| result | 1 | Max\(1\) | 交易结查 | S-交易成功 F-交易失败 Z-交易未知 |
 | orderNo | 0 | Max\(64\) | 支付渠道订单号 | 与用户支付订单中条码一致，可用于退货； |
 | amount | 0 | Max\(13\) | 实付金额 | 以分为单位，如1元表示为100 |
 | total\_amount | 0 | Max\(13\) | 订单总金额 | 以分为单位，如1元表示为100 |
