@@ -84,7 +84,6 @@ public void onFailure(int errorCode, String errorMessage) {
         {
             //异常捕获处理
         }
-
 ```
 
 ## 退款
@@ -162,7 +161,7 @@ String txnTime=""; //设备端交易时间
 String qryNo=""; //要查询的订单号
 try {
 NldQueryPay nldQueryPay = new NldQueryPay(latitude, longitude, orgNo, mercId, trmNo, oprId, trmTyp, qryNo, txnTime);
-NldPaySDK.getInstance().requestQueryPay(nldQueryPay, new OnResultListener() {
+NldPaySDK.getInstance().requestRollQueryPay(nldQueryPay, new OnResultListener() {
 @Override
 public void onSuccess(NldQueryResult nldQueryResult) {
 //nldQueryResult即为返回结果，在此处理业务逻辑
@@ -181,7 +180,29 @@ public void onFailure(int errorCode, String errorMessage) {
 ## 撤单接口
 
 ```
+public void rollQuery(View view){
+        queryPay = new NldQueryPay("31.22", "121.48", "2",
+                "800126000000021", "95005833", "000001",
+                NldPayConstant.TrmTyp.TYPE_P, "9500583301498723610844", System.currentTimeMillis()+"",
+                "800126000000021"+0+System.currentTimeMillis());
+        try {
+            NldPaySDK.getInstance().requestQueryPay(queryPay, new OnResultListener<NldQueryResult>() {
+                @Override
+                public void onSuccess(NldQueryResult nldQueryResult) {
+                    showResultMessage("网络请求成功：" + new Gson().toJson(nldQueryResult));
 
+                }
+
+                @Override
+                public void onFailure(int errorCode, String errorMessage) {
+                    showResultMessage("网络请求失败：" + errorCode + " --- " + errorMessage);
+                }
+            });
+        } catch (NewPayRuntimeException e) {
+            showResultMessage("异常原因==》" + e.getMessage());
+
+        }
+    }
 ```
 
 ## 设置日志输出
