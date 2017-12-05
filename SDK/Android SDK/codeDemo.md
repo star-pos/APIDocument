@@ -180,29 +180,35 @@ public void onFailure(int errorCode, String errorMessage) {
 ## 撤单接口
 
 ```
-public void rollQuery(View view){
-        queryPay = new NldQueryPay("31.22", "121.48", "2",
-                "800126000000021", "95005833", "000001",
-                NldPayConstant.TrmTyp.TYPE_P, "9500583301498723610844", System.currentTimeMillis()+"",
-                "800126000000021"+0+System.currentTimeMillis());
-        try {
-            NldPaySDK.getInstance().requestQueryPay(queryPay, new OnResultListener<NldQueryResult>() {
-                @Override
-                public void onSuccess(NldQueryResult nldQueryResult) {
-                    showResultMessage("网络请求成功：" + new Gson().toJson(nldQueryResult));
+String latitude=""; //纬度值
+String longitude=""; //经度值
+String orgNo=""; //机构号
+String mercId=""; //商户号
+String trmNo=""; //设备号 进件生成的终端号
+String oprId=""; //操作员号
+String trmTyp= NldPayConstant.TrmTyp.TYPE_A; //设备类型
+String txnTime=""; //设备端交易时间
+String qryNo=""; //要查询的订单号
+try {
+NldRefundPay nldRefundPay = new NldRefundPay(latitude, longitude, orgNo, mercId, trmNo, oprId, trmTyp, qryNo, txnTime);
+NldPaySDK.getInstance().requestRefundPay(refundPay, new OnResultListener<NldRefundResult>() {
+                        @Override
+                        public void onSuccess(NldRefundResult nldRefundResult) {
+                            showResultMessage("网络请求成功：" + new Gson().toJson(nldRefundResult));
 
-                }
+                        }
 
-                @Override
-                public void onFailure(int errorCode, String errorMessage) {
-                    showResultMessage("网络请求失败：" + errorCode + " --- " + errorMessage);
-                }
-            });
+                        @Override
+                        public void onFailure(int errorCode, String errorMessage) {
+                            showResultMessage("网络请求失败：" + errorCode + " --- " + errorMessage);
+                        }
+                    }
+
+            );
         } catch (NewPayRuntimeException e) {
             showResultMessage("异常原因==》" + e.getMessage());
 
         }
-    }
 ```
 
 ## 设置日志输出
