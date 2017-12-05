@@ -1,8 +1,8 @@
 # 集成步骤
 
-## Android Studio下集成SDK		
+## Android Studio下集成SDK
 
-> 打开Studio，将lib-pos-pay-xxxx.jar文件拷贝到项目的libs文件夹下。
+> 打开 Android Studio，将lib-pos-pay-xxxx.jar文件拷贝到项目的libs文件夹下。
 
 ![](/assets/doc-pic3-1.png)
 
@@ -17,7 +17,7 @@
 ```
 
 > 初始化SDK，在程序的入口初始化SDK
-
+>
 > SDK成功集成到应用程序
 
 ### 
