@@ -12,7 +12,7 @@
         "search-pro",
         "book-summary-scroll-position-saver",
         "expandable-chapters-small",
-        "baidu",
+        
         "simple-page-toc",
         "anchors",
         "emphasize",
@@ -21,19 +21,12 @@
         "prism",
         "-highlight",
         "sitemap",
-        "anchor-navigation-ex",
         "favicon"
     ],
     "pluginsConfig": {
     
         "expandable-chapters-small":{},
-        "anchor-navigation-ex":{
-            "showLevel":false,
-            "associatedWithSummary": false
-        },
-        "baidu": {
-            "token": "a9787f0ab45d5e237bab522431d0a7ec"
-        },
+        
          "atoc": {
             "addClass": true,
             "className": "atoc"
