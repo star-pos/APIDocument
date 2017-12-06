@@ -60,7 +60,7 @@
   * [Win SDK](SDK/Win SDK/index.md)
     * [接口说明](SDK/Win SDK/interface-regular.md)
     * [注意事项](SDK/Win SDK/notices.md)
-    * [接口列表](SDK/Android SDK/jie-kou-lie-biao.md)
+    * [接口列表](SDK/Win SDK/api-list/index.md)
       * [商户主扫](SDK/Win SDK/api-list/mercPay.md)
       * [客户主扫](SDK/Win SDK/api-list/customerPay.md)
       * [退款](SDK/Win SDK/api-list/refundPay.md)
