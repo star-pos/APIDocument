@@ -9,9 +9,11 @@ wchar_t* __stdcall  NL_getVersion();
 char* __stdcall  NL_getVersionA();
 ```
 
-输入参数：无
+## 输入参数
 
-输出参数：
+无
+
+## 输出参数
 
 ```
 {
