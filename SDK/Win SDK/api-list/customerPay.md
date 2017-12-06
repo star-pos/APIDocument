@@ -1,28 +1,19 @@
 # 客户主扫
 
-
-
 该接口只是返回二维码链接等信息，无法得知用户支付结果，所以需要客户端在适当的时候调用查询接口获取支付结果。
 
+```
+注意：使用该接口一定要在成功调用后，通过调用同步的查询接口来获取支付结果。
+NL_orderQuerySyncA
+NL_customerScanBarcodePay这是一个宽字符版本，返回二维码链接信息等返回结果，
+NL_customerScanBarcodePayA这是一个窄字符版本，功能同上
 
-
-> 注意：使用该接口一定要在成功调用后，通过调用同步的查询接口NL\_orderQuerySyncA来获取支付结果。
-
-> NL\_customerScanBarcodePay这是一个宽字符版本，返回二维码链接信息等返回结果，
->
-> NL\_customerScanBarcodePayA这是一个窄字符版本，功能同上
->
-> /\*\*
->
-> 扫码支付-客户主扫
->
-> \*/
->
-> wchar\_t\* \_\_stdcall NL\_customerScanBarcodePay\(wchar\_t\* param\);
->
-> char\* \_\_stdcall NL\_customerScanBarcodePayA\(char\* param\);
-
-
+/**
+扫码支付-客户主扫
+*/
+wchar_t* __stdcall NL_customerScanBarcodePay(wchar_t* param);
+char* __stdcall NL_customerScanBarcodePayA(char* param);
+```
 
 ## 输入参数
 
