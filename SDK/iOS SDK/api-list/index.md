@@ -5,7 +5,7 @@
 3. 客户主扫
 4. 退款
 5. 订单查询
-6. 轮询
+6. 轮询\(参数和订单查询一致\)
 
 ```
 /**
@@ -17,7 +17,7 @@
 
 /**
  扫码支付-商户主扫
- 
+
  @param model 公共参数model
  @param amount 实付金额（以分为单位，如1元表示为100）
  @param total_amount 订单总金额（以分为单位，如1元表示为100）
@@ -42,7 +42,7 @@
 
 /**
  扫码支付-客户主扫
- 
+
  @param model 公共参数model
  @param amount 实付金额（以分为单位，如1元表示为100）
  @param total_amount 订单总金额（以分为单位，如1元表示为100）
@@ -78,7 +78,7 @@
 
 /**
  订单查询
- 
+
  @param model 公共参数model
  @param qryNo 查询流水（可根据logNo、orderNo、tradeNo的值做查询）
  */
@@ -90,7 +90,7 @@
 
 /**
  轮循订单查询
- 
+
  @param model 公共参数model
  @param qryNo 查询流水（建议根据返回的tradeNo的值做查询）
  */
