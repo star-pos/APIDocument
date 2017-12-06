@@ -1,5 +1,20 @@
 # 微信公众号支付
 
+## 流程图![](/assets/doc-pic4-9.png)
+
+_**Tips:**_
+
+> 必须先配置商户的微信公众号之后才能调试接口
+>
+> 调用微信公众号支付流程
+>
+> 1. 调用微信公众号查询\(pubSigQry\)接口获取appId和appIdKey
+> 2. 通过查询到的appId,使用微信官方接口获取授权code
+>    [详细code生成地址](https://mp.weixin.qq.com/wiki?t=resource/res_main&id=mp1421140842)
+> 3. 通过code，使用微信公众号支付\(pubSigPay\)接口
+
+
+
 ## 公众号查询
 
 ### 请求地址

@@ -48,10 +48,10 @@
         "favicon": {
             "shortcut": "assets/favicon.ico",
             "bookmark": "assets/favicon.ico",
-            "appleTouch": "assets/import.png",
+            "appleTouch": "assets/favicon.ico",
             "appleTouchMore": {
-                "120x120": "assets/import.png",
-                "180x180": "assets/import.png"
+                "120x120": "assets/favicon.ico",
+                "180x180": "assets/favicon.ico"
             }
         }
     },
