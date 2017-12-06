@@ -37,11 +37,6 @@
             "maxDepth": 3,
             "skipFirstH1": true
         },
-        "prism": {
-            "css": [
-                "prism-themes/themes/prism-base16-ateliersulphurpool.light.css"
-            ]
-        },
         "favicon": {
             "shortcut": "assets/favicon.ico",
             "bookmark": "assets/favicon.ico",
