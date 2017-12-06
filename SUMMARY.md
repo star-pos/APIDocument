@@ -58,6 +58,10 @@
       * [订单查询](SDK/iOS SDK/api-list/queryOrder.md)
     * [附录](SDK/iOS SDK/appendix.md)
   * [Win SDK](SDK/Win SDK/index.md)
+    * [接口说明](SDK/Android SDK/jie-kou-shuo-ming.md)
+    * 注意事项
+    * 接口列表
+    * [附录](SDK/Android SDK/fu-lu.md)
 * [银行卡交易查询](scanAPI/api-list/search-order-pos.md)
 * [收单应用调用](pos-invoke/index.md)
 * [消息通道](messageChinanel/index.md)
