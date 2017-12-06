@@ -48,6 +48,15 @@
     * [示例代码](SDK/Android SDK/codeDemo.md)
     * [附录](SDK/Android SDK/appendix.md)
   * [iOS SDK](SDK/iOS SDK/index.md)
+    * 接口说明
+    * 接口列表
+      * [初始化key](SDK/iOS SDK/api-list/initSecretKey.md)
+      * [商户主扫](SDK/iOS SDK/api-list/mercPay.md)
+      * [客户主扫](SDK/iOS SDK/api-list/customerPay.md)
+      * [退款](SDK/iOS SDK/api-list/refundPay.md)
+      * [订单查询](SDK/iOS SDK/api-list/queryOrder.md)
+      * [轮询](SDK/iOS SDK/api-list/rollQuery.md)
+    * 附录
   * [Win SDK](SDK/Win SDK/index.md)
 * [银行卡交易查询](scanAPI/api-list/search-order-pos.md)
 * [收单应用调用](pos-invoke/index.md)
