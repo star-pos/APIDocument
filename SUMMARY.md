@@ -49,6 +49,7 @@
     * [附录](SDK/Android SDK/appendix.md)
   * [iOS SDK](SDK/iOS SDK/index.md)
     * [接口说明](SDK/iOS SDK/jie-kou-shuo-ming.md)
+    * [公共参数](SDK/iOS SDK/public-parameter.md)
     * 接口列表
       * [初始化key](SDK/iOS SDK/api-list/initSecretKey.md)
       * [商户主扫](SDK/iOS SDK/api-list/mercPay.md)
