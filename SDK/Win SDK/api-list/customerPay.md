@@ -6,14 +6,12 @@
 
 
 
-> 注意：使用该接口一定要在成功调用后，通过调用同步的查询接口来获取支付结果。
->
-> NL\_orderQuerySyncA
+> 注意：使用该接口一定要在成功调用后，通过调用同步的查询接口NL\_orderQuerySyncA来获取支付结果。
 
 > NL\_customerScanBarcodePay这是一个宽字符版本，返回二维码链接信息等返回结果，
 >
 > NL\_customerScanBarcodePayA这是一个窄字符版本，功能同上
-
+>
 > /\*\*
 >
 > 扫码支付-客户主扫
