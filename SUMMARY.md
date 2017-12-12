@@ -50,7 +50,7 @@
     * [接口说明](iosSDK/interface-regular.md)
     * [公共参数](iosSDK/public-parameter.md)
     * [接口列表](iosSDK/api-list/index.md)
-      * [初始化key](iOS SDK/api-list/initSecretKey.md)
+      * [初始化key](iosSDK/api-list/initSecretKey.md)
       * [商户主扫](iosSDK/api-list/mercPay.md)
       * [客户主扫](iosSDK/api-list/customerPay.md)
       * [退款](iosSDK/api-list/refundPay.md)
