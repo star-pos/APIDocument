@@ -33,7 +33,7 @@
   * [附录](mercRegist/appendix.md)
 * [SDK](SDK.md)
   * [Android SDK](androidSDK/index.md)
-    * [接口说明](Android SDK/interface-regular.md)
+    * [接口说明](androidSDK/interface-regular.md)
     * [公共参数](Android SDK/public-parameter.md)
     * [接口列表](Android SDK/api-list/index.md)
       * [初始化key](Android SDK/api-list/initSecretKey.md)
