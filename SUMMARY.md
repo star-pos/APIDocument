@@ -53,7 +53,7 @@
       * [初始化key](iOS SDK/api-list/initSecretKey.md)
       * [商户主扫](iosSDK/api-list/mercPay.md)
       * [客户主扫](iosSDK/api-list/customerPay.md)
-      * [退款](iOS SDK/api-list/refundPay.md)
+      * [退款](iosSDK/api-list/refundPay.md)
       * [订单查询](iosSDK/api-list/queryOrder.md)
     * [附录](iosSDK/appendix.md)
   * [Win SDK](winSDK/index.md)
