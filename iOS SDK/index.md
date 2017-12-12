@@ -1,12 +1,12 @@
 # iOS SDK
 
-> [**接口说明**](/SDK/iOS SDK/interface-regular.md)
+> [**接口说明**](/iOS SDK/interface-regular.md)
 >
-> [**公共参数**](/SDK/iOS SDK/public-parameter.md)
+> [**公共参数**](/iOS SDK/public-parameter.md)
 >
-> [**接口列表**](/SDK/iOS SDK/api-list/index.md)
+> [**接口列表**](/iOS SDK/api-list/index.md)
 >
-> [**附录**](/SDK/iOS SDK/appendix.md)
+> [**附录**](/iOS SDK/appendix.md)
 
 
 
