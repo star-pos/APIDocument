@@ -1,6 +1,6 @@
 # Android SDK
 
-> [**接口说明**](/Android SDK/interface-regular.md)
+> [**接口说明**](/androidSDK/interface-regular.md)
 >
 > [**公共参数**](/Android SDK/public-parameter.md)
 >
