@@ -1,10 +1,10 @@
 # SDK
 
-> [**Android SDK**](/SDK/AndroidSDK.md)
+> [**Android SDK**](/SDK/Android SDK/index.md)
 >
-> [**iOS SDK**](/SDK/iOSSDK.md)
+> [**iOS SDK**](/SDK/iOS SDK/index.md)
 >
-> [**Win SDK**](/SDK/WinSDK.md)
+> [**Win SDK**](/SDK/Win SDK/index.md)
 
 
 
