@@ -34,8 +34,6 @@ NL_merchantScanBarcodePaySyncA这是一个同步的窄字符版本，针对支�
 }
 ```
 
-
-
 | **参数** | **说明** |
 | :--- | :--- |
 | organizationNo | 机构号，从平台申请获得 |
@@ -55,8 +53,6 @@ NL_merchantScanBarcodePaySyncA这是一个同步的窄字符版本，针对支�
 | userOrderNo | 用户指定的订单号\(可选\)（最大长度50个字符） |
 | discountComment | 优惠说明\(可选\)（最大长度512个字符） |
 | attachment | 附加数据\(可选\)（最大长度512个字符） |
-
-
 
 ## 输出参数
 
@@ -90,5 +86,5 @@ NL_merchantScanBarcodePaySyncA这是一个同步的窄字符版本，针对支�
 | discountComment | 优惠说明\(可选\) |
 | attachment | 附加数据\(可选\) |
 
- 
+
 
