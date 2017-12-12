@@ -32,7 +32,7 @@
     * [商户新增产品](mercRegist/api-list/addProduct.md)
   * [附录](mercRegist/appendix.md)
 * [SDK](SDK.md)
-  * [Android SDK](Android SDK/index.md)
+  * [Android SDK](androidSDK/index.md)
     * [接口说明](Android SDK/interface-regular.md)
     * [公共参数](Android SDK/public-parameter.md)
     * [接口列表](Android SDK/api-list/index.md)
