@@ -31,7 +31,7 @@
     * [图片上传](mercRegist/api-list/uploadImage.md)
     * [商户新增产品](mercRegist/api-list/addProduct.md)
   * [附录](mercRegist/appendix.md)
-* [SDK](SDK.md)
+* [SDK](sdk/index.md)
   * [Android SDK](androidSDK/index.md)
     * [接口说明](androidSDK/interface-regular.md)
     * [公共参数](androidSDK/public-parameter.md)
