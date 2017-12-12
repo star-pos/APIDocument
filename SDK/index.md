@@ -1,6 +1,6 @@
 # SDK
 
-> [**Android SDK**](/SDK/androidsdk.md)
+> [**Android SDK**](/SDK/Android SDK/index.md)
 >
 > [**iOS SDK**](/SDK/iOS SDK/index.md)
 >
