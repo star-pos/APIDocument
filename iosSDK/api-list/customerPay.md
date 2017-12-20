@@ -6,7 +6,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | amount | 1 | 实付金额 | string | Max\(13\) | 以分为单位，如1元表示为100 |
 | total\_amount | 1 | 订单总金额 | string | Max\(13\) | 以分为单位，如1元表示为100 |
-| payChannel | 1 | 支付渠道 | enum | Max\(20\) | 附录5.1 |
+| payChannel | 1 | 支付渠道 | enum | Max\(20\) | 详见[附录](/iosSDK/appendix.md) |
 | subject | 0 | 订单标题 | string | Max\(256\) |  |
 | selOrderNo | 0 | 订单号 | string | Max\(50\) | 订货订单号 |
 | goods\_tag | 0 | 订单优惠说明 | string | Max\(256\) |  |

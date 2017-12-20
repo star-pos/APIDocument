@@ -12,7 +12,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | logNo | 1 | 系统流水号 | string | Max\(20\) | 平台系统流水号 |
 | result | 1 | 交易结查 | string | Max\(1\) | S-交易成功F-交易失败Z-交易未知 |
-| payChannel | 1 | 支付渠道 | enum | Max\(20\) | 附录5.1 |
+| payChannel | 1 | 支付渠道 | enum | Max\(20\) | 详见[附录](/iosSDK/appendix.md) |
 | orderNo | 0 | 支付渠道订单号 | string | Max\(64\) | 与用户支付订单中条码一致，可用于退货； |
 | amount | 0 | 实付金额 | string | Max\(13\) | 以分为单位，如1元表示为100 |
 | total\_amount | 0 | 订单总金额 | string | Max\(13\) | 以分为单位，如1元表示为100 |

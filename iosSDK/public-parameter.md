@@ -12,7 +12,7 @@
 | mercId | 1 | String | 商户号Max\(15\) |  |
 | trmNo | 1 | String | 设备号Max\(8\) |  |
 | optId | 0 | String | 操作员号Max\(6\) |  |
-| trmTyp | 0 | String | 设备类型 | 详情[附录](/SDK/iOS SDK/appendix.md) |
+| trmTyp | 0 | String | 设备类型 | 详情[附录](/iosSDK/appendix.md) |
 | tradeNo | 1 | String | 商户单号Max\(64\) | 在商户端不重复\(说明建议使用规则：设备号+0+当前毫秒时间戳\) |
 
 ## 公共返回参数

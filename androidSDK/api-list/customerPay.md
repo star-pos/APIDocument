@@ -15,7 +15,7 @@
 | :--- | :--- | :--- | :--- | :--- |
 | amount | 1 | Max\(13\) | 实付金额 | 以分为单位，如1元表示为100\(最大位数13位\) |
 | total\_amount | 1 | Max\(13\) | 订单总金额 | 以分为单位，如1元表示为100\(最大位数13位\) |
-| payChannel | 1 | / | 支付渠道 | 详情见[附录](/SDK/Android SDK/appendix.md) |
+| payChannel | 1 | / | 支付渠道 | 详情见[附录](/androidSDK/appendix.md) |
 | subject | 0 | Max\(512\) | 订单标题 | String内容值不能是null |
 | selOrderNo | 0 | Max\(50\) | 订单号 | 数字or字母，组合 |
 | goods\_tag | 0 | Max\(512\) | 订单优惠说明 | String内容值不能是null |
