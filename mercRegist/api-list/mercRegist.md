@@ -33,14 +33,14 @@
 | trm\_rec | 1 | String | 2 | 终端数量 | 范围在1-99 |
 | mailbox | 1 | String | 50 | 联系人邮箱 |  |
 | alipay\_flg | 1 | String | 1 | 扫码产品 | Y-选择N-不选择最少选一个产品 |
-|  | yhkpay\_flg | 1 | String | 1 | 银行卡产品 |
+| yhkpay\_flg | 1 | String | 1 | 银行卡产品 |  |
 | fee\_rat\_scan | 0 | String | 精确到小数点后2位 | 扫码费率\(%\) | 默认：0.38，（0.25%-3%）范围浮动（扫码支付勾选时必输） |
 | fee\_rat1\_scan | 0 | String | 精确到小数点后2位 | 银联二维码费率 | 银行卡和扫码都选择时候必输，最小0.22 |
 | fee\_rat2\_scan | 0 | String | 精确到小数点后2位 | 银联二维码标准费率 | 银行卡和扫码都选择时候必输，最小0.6 |
 | fee\_rat | 0 | String | 精确到小数点后2位 | 借记卡费率\(%\) | 默认0.5，0.4%-3% 浮动银行卡（银行卡产品选择时必输） |
 | max\_fee\_amt | 0 | String | 2 | 借记卡封顶（元） | 默认20，最低18， 0表示不封顶（银行卡产品选择时必输） |
 | fee\_rat1 | 0 | String | 精确到小数点后2位 | 贷记卡费率（%） | 默认0.6，贷记卡0.52%-3%范围浮动（已还款产品选择时必输） |
-| signValue | 1 | String | 64 | 签名域 | 详见[安全规范](/mercRegist/api-list/mercSearch.md) |
+| signValue | 1 | String | 64 | 签名域 | 详见[安全规范](/mercRegist/safety-standard.md) |
 
 ## 返回参数
 
@@ -51,7 +51,7 @@
 | msg\_dat | 1 | String | 返回信息 |  |
 | mercId | 1 | String | 商户识别号 |  |
 | stoe\_id | 1 | string | 门店号 |  |
-| signValue | 1 | String | 签名域 | 详见[安全规范](/mercRegist/api-list/mercSearch.md) |
+| signValue | 1 | String | 签名域 | 详见[安全规范](/mercRegist/safety-standard.md) |
 
 
 
