@@ -10,7 +10,7 @@
 | version | 1 | String | 10 | 版本号 | V1.0.1 |
 | mercId | 1 | string | 15 | 商户识别号（15位数字） |  |
 | orgNo | 1 | string | 6 | 机构号 |  |
-| signValue | 1 | String | 64 | 签名域 | 详见[安全规范](/mercRegist/api-list/mercSearch.md) |
+| signValue | 1 | String | 64 | 签名域 | 详见[安全规范](/mercRegist/safety-standard.md) |
 
 ## 返回参数
 
@@ -21,7 +21,7 @@
 | mercId | 1 | String | 商户识别号 |  |
 | stoe\_id | 1 | String | 门店号 |  |
 | log\_no | 1 | String | 流水号 |  |
-| signValue | 1 | String | 签名域 | 详见[安全规范](/mercRegist/api-list/mercSearch.md) |
+| signValue | 1 | String | 签名域 | 详见[安全规范](/mercRegist/safety-standard.md) |
 
 
 

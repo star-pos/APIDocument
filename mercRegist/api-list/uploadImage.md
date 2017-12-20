@@ -15,7 +15,7 @@
 | imgTyp | 1 | string | 2 | 图片类型 | 1-营业执照照片2-税务登记证照3-组织机构照4-法人身份证正面照5-法人身份证反面照6-门头照7-场景照8-收银台照9-结算人身份证正面照10-结算人身份证反面照11-银行卡照12-开户行许可证照13-法人手持证件照14-商户协议15-商户信息表16-授权结算书 |
 | imgNm | 1 | string | 20 | 图片名称 | 汉字数字和字母，不允许有特殊字符 |
 | imgFile | 1 | string |  | 图片（不参与验签） | 图片转成十六进制，图片不能超过500KB |
-| signValue | 1 | String | 64 | 签名域 | 详见[安全规范](/mercRegist/api-list/mercSearch.md) |
+| signValue | 1 | String | 64 | 签名域 | 详见[安全规范](/mercRegist/safety-standard.md) |
 
 ## 返回参数
 
@@ -25,25 +25,11 @@
 | msg\_dat | 1 | String | 返回信息 |  |
 | mercId | 1 | String | 商户识别号 |  |
 | log\_no | 1 | String | 流水号 |  |
-| signValue | 1 | String | 签名域 | 详见[安全规范](/mercRegist/api-list/mercSearch.md) |
+| signValue | 1 | String | 签名域 | 详见[安全规范](/mercRegist/safety-standard.md) |
 
 ## 上传要求
 
-> 商户图片要求：
->
-> 商户图片
->
-> 营业执照照片/税务登记证照/组织机构照最少一张照片
->
-> 法人证件照/法人手持证件照最少一张照片
->
-> 门店下的图片
->
-> 门头照/场景照/收银台照最少一张照片
->
-> 结算人身份证/结算人手持身份证最少一张照片
->
-> 银行卡照/开户行许可证照最少一张照片
+![](/assets/imageUploadNeeds.png)
 
 
 
