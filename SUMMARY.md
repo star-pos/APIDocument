@@ -67,7 +67,11 @@
       * [订单查询](winSDK/api-list/queryOrder.md)
     * [附录](winSDK/appendix.md)
 * [收单应用调用](pos-invoke/index.md)
-* [PC收单应用调用](pos-invoke/pcInvokePOS.md)
+* [PC收单应用调用](pcInvokePOS/index.md)
+  * 接口说明
+  * 参数说明
+  * 示例
+  * PC端串口请求模拟
 * [消息通道](messageChinanel/index.md)
 * [银行卡交易查询](scanAPI/api-list/search-order-pos.md)
 * [资料下载](downloadFiles.md)
