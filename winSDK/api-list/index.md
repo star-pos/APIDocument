@@ -1,14 +1,16 @@
 # 接口列表
 
-> **商户主扫**
+> [**获取版本**](/winSDK/api-list/getVersion.md)
 >
-> **客户主扫**
+> [**商户主扫**](/winSDK/api-list/mercPay.md)
 >
-> **退款**
+> [**客户主扫**](/winSDK/api-list/customerPay.md)
 >
-> **订单查询**
+> [**退款**](/winSDK/api-list/refundPay.md)
 >
-> **撤销订单**
+> [**订单查询**](/winSDK/api-list/queryOrder.md)
+
+
 
 
 
