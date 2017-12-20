@@ -34,5 +34,7 @@ http://gateway.starpos.com.cn/adpweb/ehpspos3/sdkQryCardPay.json
 | logNo | 1 | String | Max\(20\) | 平台流水号 |  |
 | selOrderNo | 1 | String | Max\(50\) | 第三方订单号 | 第三方订单号 |
 
-使用参考[收单扫码API](/README.md)
+
+
+使用参考[收单扫码API](/README.md)
 
