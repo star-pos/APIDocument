@@ -68,9 +68,9 @@
     * [附录](winSDK/appendix.md)
 * [收单应用调用](pos-invoke/index.md)
 * [PC收单应用调用](pcInvokePOS/index.md)
-  * 接口说明
-  * 参数说明
-  * 示例
+  * [接口说明](pcInvokePOS/interface-regular.md)
+  * [参数说明](pcInvokePOS/parameter.md)
+  * [示例](pcInvokePOS/example.md)
   * PC端串口请求模拟
 * [消息通道](messageChinanel/index.md)
 * [银行卡交易查询](scanAPI/api-list/search-order-pos.md)
