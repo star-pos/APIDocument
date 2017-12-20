@@ -37,7 +37,7 @@
 | fee\_rat | 0 | String | 精确到小数点后2位 | 借记卡费率\(%\) | 默认0.5，0.4%-3% 浮动银行卡（银行卡产品选择时必输） |
 | max\_fee\_amt | 0 | String | 2 | 借记卡封顶（元） | 默认20，最低18， 0表示不封顶（银行卡产品选择时必输） |
 | fee\_rat1 | 0 | String | 精确到小数点后2位 | 贷记卡费率（%） | 默认0.6，贷记卡0.52%-3%范围浮动（银行卡产品选择时必输） |
-| signValue | 1 | String | 64 | 签名域 | 详见[安全规范](/mercRegist/api-list/mercSearch.md) |
+| signValue | 1 | String | 64 | 签名域 | 详见[安全规范](/mercRegist/safety-standard.md) |
 
 ## 返回参数
 
@@ -48,7 +48,7 @@
 | msg\_dat | 1 | String | 返回信息 |  |
 | mercId | 1 | String | 商户识别号 |  |
 | stoe\_id | 1 | String | 门店号 |  |
-| signValue | 1 | String | 签名域 | 详见[安全规范](/mercRegist/api-list/mercSearch.md) |
+| signValue | 1 | String | 签名域 | 详见[安全规范](/mercRegist/safety-standard.md) |
 
 
 

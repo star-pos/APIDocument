@@ -11,7 +11,7 @@
 | mercId | 1 | string | 15 | 商户识别号（15位数字） |  |
 | log\_no | 1 | String | 18 | 流水号 |  |
 | orgNo | 1 | string | 6 | 机构号 |  |
-| signValue | 1 | String | 64 | 签名域 | 详见[安全规范](/mercRegist/api-list/mercSearch.md) |
+| signValue | 1 | String | 64 | 签名域 | 详见[安全规范](/mercRegist/safety-standard.md) |
 
 ## 返回参数
 
@@ -21,7 +21,7 @@
 | msg\_cd | 1 | String | 返回码 | 000000（成功） |
 | msg\_dat | 1 | String | 返回信息 |  |
 | mercId | 1 | String | 商户识别号 |  |
-| signValue | 1 | String | 签名域 | 详见[安全规范](/mercRegist/api-list/mercSearch.md) |
+| signValue | 1 | String | 签名域 | 详见[安全规范](/mercRegist/safety-standard.md) |
 | chek\_msg | 0 | String | 审核备注 | check\_flag=2或3时返回 |
 | key | 0 | String | 商户密钥（有扫码产品） | check\_flag=1时审核通过返回 |
 | 以下为循环节点REC |  |  |  |  |
