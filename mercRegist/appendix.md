@@ -19,6 +19,8 @@
 
 ## 进件流程说明
 
+![](/assets/mercRegistFlow.png)
+
 ### 查询
 
 商户查询：查询商户的审核结果
