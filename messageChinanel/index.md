@@ -27,7 +27,7 @@
 | 7 | 支付通道 | PayChannel | Char\(2\) | 1.支付宝ISV              2.微信支付               3.百度百付宝                   4.苏宁易付宝         5.支付宝城市服务商 6 京东钱包                  7.QQ钱包                   8 翼支付 |
 | 8 | 交易日期 | TxnDate | Char\(8\) | YYYYMMDD |
 | 9 | 交易时间 | TxnTime | Char\(6\) | HHMMSS |
-| 10 | 交易金额 | TxnAmt | Char\(10\) | 按分为单位填写 |
+| 10 | 交易金额 | TxnAmt | Char\(10\) | 按元为单位填写 |
 | 11 | 交易状态 | TxnStatus | CHAR\(1\) | 1：成功 |
 | 12 | 支付银行 | BankType | Char\(20\) | 返回的支付银行 |
 | 13 | 支付通道订单号 | OfficeId | Char\(64\) | 微信/支付宝订单号 |
