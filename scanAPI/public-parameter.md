@@ -13,7 +13,7 @@
 | trmNo | 1 | String | Max\(8\) | 设备号 | 长度8位数字，进件生成终端号 |
 | oprId | 0 | String | Max\(6\) | 操作员号 |  |
 | trmTyp | 0 | String | Max\(2\) | 设备类型 | P-智能POS A- app扫码 C-PC端 T-台牌扫码 |
-| tradeNo | 1 | String | Max\(64\) | 商户单号 | 在商户端不重复 |
+| tradeNo | 1 | String | Max\(64\) | 交易流水号 | 在商户端不重复 |
 | txnTime | 1 | String | Max\(14\) | 设备端交易时间 | 如：20170527153245 |
 | signType | 1 | String | Max\(6\) | 签名方式 | MD5 |
 | signValue | 1 | String | Max\(64\) | 签名域 | 详见[安全规范-数字签名](/scanAPI/safety-standard.md) |
