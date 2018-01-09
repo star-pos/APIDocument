@@ -32,7 +32,7 @@
 | subject | 0 | String | Max\(512\) | 订单标题 |  |
 | selOrderNo | 0 | String | Max\(50\) | 订单号 | 订货订单号 |
 | goodsTag | 0 | String | Max\(512\) | 订单优惠说明 |  |
-| Attach | 0 | String | Max\(512\) | 附加数据 |  |
+| attach | 0 | String | Max\(512\) | 附加数据 |  |
 | refAmt | 1 | String | Max\(13\) | 退款金额 | 以分为单位，如1元表示为100版本号需上送V1.0.1 |
 
 
