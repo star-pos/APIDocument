@@ -22,7 +22,7 @@
 | subject | 0 | String | Max\(512\) | 订单标题 |  |
 | selOrderNo | 0 | String | Max\(50\) | 订单号 | 订货订单号 |
 | goods\_tag | 0 | String | Max\(512\) | 订单优惠说明 |  |
-| Attach | 0 | String | Max\(512\) | 附加数据 | 附加数据 |
+| attach | 0 | String | Max\(512\) | 附加数据 | 附加数据 |
 
 ## 返回参数
 
