@@ -10,7 +10,6 @@
 * 待签名原文是请求参数按参数名字母小写后进行升序排列,对应参数值拼装成的字符串
 * 如果提交的参数为{apam:value1, cpam:value2, Bpam:value3}
 * 密钥key值为AFDFAASDASDAS
-
 * 则待签名原文为：value1value3value2AFDFAASDASDAS
 
 ## 请求范例
