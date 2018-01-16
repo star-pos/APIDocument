@@ -1,6 +1,8 @@
 # 微信公众号支付
 
-## 流程图![](/assets/doc-pic4-9.png)
+## 流程图
+
+![](/assets/wx.png)
 
 _**Tips:**_
 
