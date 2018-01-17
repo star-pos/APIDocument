@@ -5,7 +5,7 @@
 | 元素名称 | 约束 | 类型 | 最大长度 | 描述 | 说明 |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | opSys | 1 | String | Max\(1\) | 操作系统 | 0:Android SDK  1:iOS SDK         2:windows SDK 3:直连 |
-| characterSet | 1 | String | Max\(2\) | 字符集 | 默认00-GBK,01-UTF-8 |
+| characterSet | 1 | String | Max\(2\) | 字符集 | 默认00-GBK |
 | latitude | 0 | String | Max\(15\) | 经纬度 |  |
 | longitude | 0 | String | Max\(15\) | 经度值 |  |
 | orgNo | 1 | String | Max\(15\) | 机构号 |  |
