@@ -2,7 +2,7 @@
 
 ## 流程图
 
-![](/assets/wx.png)
+![](/assets/doc-pic4-9.png)
 
 _**Tips:**_
 
