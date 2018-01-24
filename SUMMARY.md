@@ -61,8 +61,8 @@
 * [资料下载](downloadFiles.md)
 * [手机网页支付](webpay/index.md)
   * [接口说明](webpay/interface-regular.md)
-  * 接口列表
-  * 附录
-  * 公共参数
   * [安全规范](webpay/safety-standard.md)
+  * [公共参数](webpay/public-parameter.md)
+  * [接口列表](webpay/api-list.md)
+  * [附录](webpay/appendix.md)
 
