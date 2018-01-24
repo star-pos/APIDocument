@@ -13,6 +13,8 @@
 > [**收单应用调用**](/pos-invoke/index.md)
 >
 > [**消息通道**](/messageChinanel/index.md)
+>
+> [**资料下载**](/downloadFiles.md)
 
 
 
