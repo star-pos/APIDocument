@@ -12,7 +12,7 @@
 | optId | 0 | Max\(6\) | String | 操作员号 | 数字or字母、组合 |
 | trmTyp | 0 | / | String | 设备类型 | 详情见附录5.3 |
 | txnTime | 1 | / | String | 设备端交易时间 | 如：20170527153245\(最大位数14位\) |
-| tradeNo | 1 | Max\(64\) | String | 商户单号 | 数字or字母、组合（在商户端不重复） |
+| tradeNo | 1 | Max\(64\) | String | 商户单号 | 数字or字母or横线or下划线组合\(在商户端不重复\) |
 
 ## 公共返回参数
 
