@@ -108,7 +108,7 @@ break;
     bundle.putString("proc_tp",  "00");
     bundle.putString("proc_cd", "000000");
     bundle.putString("amt",     "100");
-    bundle.putString("order_no",     "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
+    bundle.putString("order_no",     "xxxxxxxxxxx");//商户订单号，消息通道推送字段ChannelId
     bundle.putString("appid",     "xxx.xx.xxx");//
 
     消费撤销
@@ -116,7 +116,7 @@ break;
     bundle.putString("pay_tp",  "0");
     bundle.putString("proc_tp",  "00");
     bundle.putString("proc_cd", "200000");
-    bundle.putString("order_no",     "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
+    bundle.putString("order_no",     "xxxxxxxxxxx");//商户订单号，消息通道推送字段ChannelId
     bundle.putString("appid",     "xxx.xx.xxx");//
 
 
@@ -126,7 +126,7 @@ break;
     bundle.putString("proc_tp", "00");
     bundle.putString("proc_cd", "660000");
     bundle.putString("amt", "100");
-    bundle.putString("order_no", "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
+    bundle.putString("order_no", "xxxxxxxxxxx");//商户订单号，消息通道推送字段ChannelId
     bundle.putString("appid", "xxx.xx.xxx");//
 
     扫码退款
@@ -134,7 +134,7 @@ break;
     bundle.putString("pay_tp", "1");//可传1/11/12/13，选择
     bundle.putString("proc_tp", "00");
     bundle.putString("proc_cd", "680000");
-    bundle.putString("order_no", "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
+    bundle.putString("order_no", "xxxxxxxxxxx");//商户订单号，消息通道推送字段ChannelId
     bundle.putString("appid", "xxx.xx.xxx");//
 
 
@@ -144,10 +144,16 @@ break;
     bundle.putString("proc_tp", "00");
     bundle.putString("proc_cd", "660000");
     bundle.putString("amt", "100");
-    bundle.putString("order_no", "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
+    bundle.putString("order_no", "xxxxxxxxxxx");//商户订单号，消息通道推送字段ChannelId
     bundle.putString("appid", "xxx.xx.xxx");//
     
-    
+    //扫码查询，可补打单
+    bundle.putString("msg_tp", "0200");
+    bundle.putString("proc_tp", "00");
+    bundle.putString("proc_cd", "700000");
+    bundle.putString("order_no", "xxxxxxxxxxx");//商户订单号，消息通道推送字段ChannelId
+    bundle.putString("appid", "xxx.xx.xxx");//
+
 ```
 
 ## 
