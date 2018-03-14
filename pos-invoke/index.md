@@ -99,6 +99,21 @@ break;
 }
 ```
 
+### 分类说明
+
+```
+    //银行卡产品
+    bundle.putString("msg_tp",  "0200");
+    bundle.putString("pay_tp",  "0");
+    bundle.putString("proc_tp",  "00");
+    bundle.putString("proc_cd", "000000");
+    bundle.putString("amt",     "100.01");
+    bundle.putString("order_no",     "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
+    bundle.putString("appid",     "xxx.xx.xxx");//
+```
+
+## 
+
 ## 附录
 
 ### 交易详情JSON结构
