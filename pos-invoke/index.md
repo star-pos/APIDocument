@@ -102,7 +102,7 @@ break;
 ### 分类说明
 
 ```
-    //银行卡产品
+    //消费（刷卡）
     bundle.putString("msg_tp",  "0200");
     bundle.putString("pay_tp",  "0");
     bundle.putString("proc_tp",  "00");
@@ -110,6 +110,16 @@ break;
     bundle.putString("amt",     "100");
     bundle.putString("order_no",     "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
     bundle.putString("appid",     "xxx.xx.xxx");//
+    
+    消费撤销
+    bundle.putString("msg_tp",  "0200");
+    bundle.putString("pay_tp",  "0");
+    bundle.putString("proc_tp",  "00");
+    bundle.putString("proc_cd", "200000");
+    bundle.putString("amt",     "100");
+    bundle.putString("order_no",     "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
+    bundle.putString("appid",     "xxx.xx.xxx");//
+
 
     //扫码
     bundle.putString("msg_tp", "0200");
@@ -119,7 +129,7 @@ break;
     bundle.putString("amt", "100");
     bundle.putString("order_no", "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
     bundle.putString("appid", "xxx.xx.xxx");//
-    
+
     扫码退款
     bundle.putString("msg_tp", "0200");
     bundle.putString("pay_tp", "1");//可传1/11/12/13，选择
@@ -129,7 +139,7 @@ break;
     bundle.putString("order_no", "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
     bundle.putString("appid", "xxx.xx.xxx");//
 
-    
+
     //预授权
     bundle.putString("msg_tp", "0200");
     bundle.putString("pay_tp", "1");//可传1/11/12/13，选择
