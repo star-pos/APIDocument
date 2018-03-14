@@ -27,7 +27,7 @@
 | 原交易日期 | String | sysolddate | / |  | 该字段仅在返回数据中，请求数据不需要 |
 | 操作员 | String | oprId | / |  | 该字段仅在返回数据中，请求数据不需要 |
 
-## 查询类
+## 查询类（终端本地数据查询）
 
 | **域内容** | **数据类型** | **键（KEY）** | **请求值\(VALUE\)** | **返回值\(VALUE\)** | **备注** |
 | :--- | :--- | :--- | :---: | :--- | :--- |
@@ -110,13 +110,12 @@ break;
     bundle.putString("amt",     "100");
     bundle.putString("order_no",     "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
     bundle.putString("appid",     "xxx.xx.xxx");//
-    
+
     消费撤销
     bundle.putString("msg_tp",  "0200");
     bundle.putString("pay_tp",  "0");
     bundle.putString("proc_tp",  "00");
     bundle.putString("proc_cd", "200000");
-    bundle.putString("amt",     "100");
     bundle.putString("order_no",     "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
     bundle.putString("appid",     "xxx.xx.xxx");//
 
@@ -135,7 +134,6 @@ break;
     bundle.putString("pay_tp", "1");//可传1/11/12/13，选择
     bundle.putString("proc_tp", "00");
     bundle.putString("proc_cd", "680000");
-    bundle.putString("amt", "100");
     bundle.putString("order_no", "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
     bundle.putString("appid", "xxx.xx.xxx");//
 
@@ -148,6 +146,8 @@ break;
     bundle.putString("amt", "100");
     bundle.putString("order_no", "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
     bundle.putString("appid", "xxx.xx.xxx");//
+    
+    
 ```
 
 ## 
