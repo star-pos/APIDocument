@@ -113,7 +113,26 @@ break;
 
     //扫码
     bundle.putString("msg_tp", "0200");
-    bundle.putString("pay_tp", "1");//可传1/11/12/14，选择
+    bundle.putString("pay_tp", "1");//可传1/11/12/13，选择
+    bundle.putString("proc_tp", "00");
+    bundle.putString("proc_cd", "660000");
+    bundle.putString("amt", "100");
+    bundle.putString("order_no", "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
+    bundle.putString("appid", "xxx.xx.xxx");//
+    
+    扫码退款
+    bundle.putString("msg_tp", "0200");
+    bundle.putString("pay_tp", "1");//可传1/11/12/13，选择
+    bundle.putString("proc_tp", "00");
+    bundle.putString("proc_cd", "680000");
+    bundle.putString("amt", "100");
+    bundle.putString("order_no", "xxxxxxxxxxx");//商户订单号，对应消息通道推送字段ChannelId
+    bundle.putString("appid", "xxx.xx.xxx");//
+
+    
+    //预授权
+    bundle.putString("msg_tp", "0200");
+    bundle.putString("pay_tp", "1");//可传1/11/12/13，选择
     bundle.putString("proc_tp", "00");
     bundle.putString("proc_cd", "660000");
     bundle.putString("amt", "100");
