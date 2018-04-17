@@ -44,7 +44,7 @@
 | expDate | String | 有效期 |  | 扫码交易不返回 |
 | authCode | String | 授权号 |  | 扫码交易不返回 |
 | cardNo | String | 银行卡号 |  | 扫码交易不返回 |
-| cardType | String | 银行卡类型 | 00借记卡01贷记卡02准贷记卡03预闪付04其他 | 扫码交易不返回 |
+| cardType | String | 银行卡类型 | 00-借记卡<br>01-贷记卡<br>02-准贷记卡<br>03-预闪付<br>04-其他 | 扫码交易不返回 |
 | oldTransNo | String | 原交易凭证号 |  | 扫码交易不返回 |
 | oldReferNo | String | 原交易参考号 |  | 扫码交易不返回 |
 | oldTransDate | String | 原交易日期 |  | 扫码交易不返回 |
