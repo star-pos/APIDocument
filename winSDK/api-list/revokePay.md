@@ -33,7 +33,7 @@ char* __stdcall  NL_revokeSyncA(char* param);
 | merchantId | 商户ID，从平台申请获得（最大长度15个字符） |
 | terminalId | 终端ID，从平台申请获得 |
 | operId | 操作员ID，用户指定，数字，字母（可选）（最大长度6个字符） |
-| devKey | 设备key值 |
+| devKey | 设备key值，商户密钥 |
 | merchantTradeSN | 商户单号，要求在商户端不重复，必要参数 |
 | merchantTSN | 原交易流水商户单号merchantTradeSN |
 
