@@ -5,7 +5,7 @@
 | 方法 | void requestPosPay\(NldPosPay nldPosPay, OnResultListeneronResultListener\) |
 | :--- | :--- |
 | 说明 | 客户主扫 |
-| 输入参数 | 1.NldPosPay 2.OnResultListener&lt;NldPosResult&gt;onResultListener接口回调 |
+| 输入参数 | 1.NldPosPay<br> 2.OnResultListener&lt;NldPosResult&gt;onResultListener接口回调 |
 | 输出参数 | void |
 | 附加说明 | NldPosResult:返回对象参数 |
 
