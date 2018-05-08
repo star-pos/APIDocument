@@ -158,7 +158,6 @@ break;
     bundle.putString("msg_tp", "0200");
     bundle.putString("proc_tp", "00");
     bundle.putString("proc_cd", "900000");
-    bundle.putString("order_no", "xxxxxxxxxxx");//商户订单号，消息通道推送字段ChannelId
     bundle.putString("appid", "xxx.xx.xxx");//
 ```
 
