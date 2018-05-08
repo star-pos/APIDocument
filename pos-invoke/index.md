@@ -26,6 +26,12 @@
 | 原交易参考号 | String | sysoldreferno | / |  | 该字段仅在返回数据中，请求数据不需要 |
 | 原交易日期 | String | sysolddate | / |  | 该字段仅在返回数据中，请求数据不需要 |
 | 操作员 | String | oprid | / |  | 该字段仅在返回数据中，请求数据不需要 |
+| 交易卡号 | String | trans_cardno| / |  |  |
+
+
+
+
+
 
 ## 查询类（终端本地数据查询）
 
