@@ -58,6 +58,7 @@ txnData拼接MD5KEY后，计算md5值做为signValue。
 | 14 | 商户单号 | ChannelId | Char\(64\) | 对应交易上送selOrderNo字段 |
 | 15 | C端用户信息 | UserId | Char\(64\) | C端支付用户信息 |
 | 16 | 平台流水号 | logNo | Char\(20\) |  |
+|18|附加信息|attach|Char(64)|附加信息|
 | 17 | 银行卡借贷记标识 | CrdFlg | Char\(1\) | 1:借记卡 <br>2：贷记卡 |
 
 ### 返回参数
