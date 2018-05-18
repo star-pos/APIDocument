@@ -84,8 +84,7 @@ txnData拼接MD5KEY后，计算md5值做为signValue。
 |2|描述	|RspDes	|Char(64)|不足右补空格
 
 ### 加密加签参考文档
-
-
+[参考文档](assets/RsaUtils.java)
 
 
 
